@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+         table,tr,td{
+            border: 1px solid black;
+             border-collapse:collapse; 
+             margin-left: 55px;
+         }
+         table{
+            width: 50%;
+            height: auto;
+         }
+         table td:nth-child(1)
+         {
+            text-align: right;
+         }
+          table td:nth-child(2){ 
+            text-align: left;
+         }
+         table tr:nth-child(3){ 
+            text-align: center;
+         }
+    </style>
+</head>
+<body>
+    <div> Mark Entry</div>
+    <table >
+        <tr>
+            <td>Register No:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Name:</td>
+                <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><center><u>Marks</u></center></td>
+        </tr>
+        <tr>
+            <td>English:</td>
+                <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Physics:</td>
+                <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Chemistry:</td>
+                <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Marks</td>
+                <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><center><input type="button" value="Save"></center></td>
+        </tr>
+    </table>
+</body>
+</html>
